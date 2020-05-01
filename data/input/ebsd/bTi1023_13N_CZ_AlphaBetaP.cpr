@@ -1,0 +1,91 @@
+[General]
+Version=5.0
+Date=10/06/2019
+Time=10:51:39 PM
+Duration=0:30:25
+PerCycle=0.007300835
+Description=bTi1023_13N_CZ_1
+Author=AZtec
+Notes=
+JobMode=RegularGrid
+SampleSymmetry=1
+[Job]
+Coverage=76.0
+Magnification=600
+kV=20.00
+TiltAngle=70.00
+TiltAxis=0.00
+Device=Beam
+GridDistX=0.1000
+GridDistY=0.1000
+xCells=500
+yCells=500
+[Acquisition Surface]
+Euler1=0.0
+Euler2=0.0
+Euler3=0.0
+[Fields]
+Count=13
+Field1=3
+Field2=4
+Field3=5
+Field4=6
+Field5=7
+Field6=8
+Field7=10
+Field8=11
+Field9=12
+Field10=101
+Field11=102
+Field12=103
+Field13=104
+[Phases]
+Count=2
+[Phase1]
+StructureName=BetaTi_r
+Reference=Based on Rietveld refinement of ND data by AAS
+Enabled=True
+a=3.2430
+b=3.2430
+c=3.2430
+alpha=90.00
+beta=90.00
+gamma=90.00
+LaueGroup=11
+SpaceGroup=229
+ID1=
+ID2=
+[Maximum indices]
+Phase1=444
+Phase2=444
+[Phase2]
+StructureName=AlphaTi_r
+Reference=Based on Rietveld refinement of ND data by AAS
+Enabled=True
+a=2.9360
+b=2.9360
+c=4.6880
+alpha=90.00
+beta=90.00
+gamma=120.00
+LaueGroup=9
+SpaceGroup=194
+ID1=
+ID2=
+[SEMFields]
+DOEuler1=0.448792839534878
+DOEuler2=90.7390057007661
+DOEuler3=2.33828345898508
+[StagePosition]
+XPos=-0.43525
+YPos=-16.6995
+ZPos=32.97345
+RPos=359.500427246094
+TPos=0.00314502780465648
+ZValid=True
+[EDX Windows]
+Count=4
+Window1=Titanium K
+Window2=Vanadium K
+Window3=Aluminum K
+Window4=Iron K
