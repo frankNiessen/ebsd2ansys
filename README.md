@@ -32,5 +32,3 @@ As an output the function returns:
 
 - order: list of ebsd pixel indeces according to ABAQUS convention of the order of x,y and z coordinates. 
 - grainsReconstructed: MTEX grains2d object containing the reconstructed grains that form the element groups in ANSYS.
-- order - 
-- grainsReconstructed - MTEX grains2D object containing the reconstructed grains
